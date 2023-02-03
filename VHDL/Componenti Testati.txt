@@ -1,0 +1,29 @@
+mux_4bit_2_1
+mux_8bit_2_1
+mux_8bit_3_1
+mux_16bit_2_1
+mux_16bit_3_1
+adder_8bit
+SE_4_8
+SE_8_16
+ALU
+LUT
+
+PC
+IM (InstructionMemory)
+DM (Data Memory)
+Registers
+pipe_IF_ID
+pipe_ID_EX
+
+Fetch Stage
+Decode Stage
+
+Componenti non testati:
+
+pipe_EX_MEM
+pipe_MEM_WB
+
+FlipFlop T
+Branch Control
+Data Hazard Control

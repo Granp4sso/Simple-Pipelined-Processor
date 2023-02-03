@@ -1,0 +1,88 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jul 08 10:18:15 2020
+[*]
+[dumpfile] "C:\Users\Stefano\Desktop\Università\Magistrale\I Anno\II Semestre\Calcolatori Elettronici II\Progetto\SPP\VHDL\tb.vcd"
+[dumpfile_mtime] "Wed Jul 08 10:15:43 2020"
+[dumpfile_size] 54920
+[savefile] "C:\Users\Stefano\Desktop\Università\Magistrale\I Anno\II Semestre\Calcolatori Elettronici II\Progetto\SPP\VHDL\conf.gtkw"
+[timestart] 0
+[size] 1920 1017
+[pos] -243 -243
+*-25.302931 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 294
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+spp_tb.clk
+@22
+spp_tb.if_control_signals_out[11:0]
+spp_tb.if_instruction_out[15:0]
+spp_tb.if_next_pc_out[7:0]
+[color] 2
+spp_tb.id_address_mem_out[7:0]
+[color] 2
+spp_tb.id_control_signals_out[9:0]
+[color] 2
+spp_tb.id_immediate_out[15:0]
+[color] 2
+spp_tb.id_jump_address_out[7:0]
+[color] 2
+spp_tb.id_next_pc_out[7:0]
+[color] 2
+spp_tb.id_offset_branch_out[7:0]
+[color] 2
+spp_tb.id_register_data_1_out[15:0]
+[color] 2
+spp_tb.id_register_data_2_out[15:0]
+[color] 2
+spp_tb.id_register_destination_out[3:0]
+[color] 2
+spp_tb.id_register_source_1_out[3:0]
+[color] 2
+spp_tb.id_register_source_2_out[3:0]
+[color] 5
+spp_tb.ex_address_mem_out[7:0]
+[color] 5
+spp_tb.ex_address_out[7:0]
+[color] 5
+spp_tb.ex_alu_result_out[15:0]
+@28
+[color] 5
+spp_tb.ex_branch_taken
+@22
+[color] 5
+spp_tb.ex_control_signals_out[3:0]
+@28
+[color] 5
+spp_tb.ex_jump_taken
+@22
+[color] 5
+spp_tb.ex_register_destination_out[3:0]
+[color] 5
+spp_tb.ex_register_source_1_out[3:0]
+[color] 5
+spp_tb.ex_register_source_2_out[3:0]
+[color] 3
+spp_tb.mem_alu_result_out[15:0]
+@28
+[color] 3
+spp_tb.mem_control_signals_out[1:0]
+@22
+[color] 3
+spp_tb.mem_forwarded_alu_data[15:0]
+[color] 3
+spp_tb.mem_forwarded_memory_data[15:0]
+[color] 3
+spp_tb.mem_memory_result_out[15:0]
+[color] 3
+spp_tb.mem_register_destination_out[3:0]
+@23
+[color] 7
+spp_tb.wb_data_out[15:0]
+@29
+[color] 7
+spp_tb.wb_write_reg
+[pattern_trace] 1
+[pattern_trace] 0

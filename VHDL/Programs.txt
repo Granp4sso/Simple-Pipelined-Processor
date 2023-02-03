@@ -1,0 +1,22 @@
+somma 52 con 6 :
+0 => x"0000",
+1 => x"9520", 
+2 => x"0000",
+3 => x"0000", 
+4 => x"9061", 
+5 => x"1013"
+
+Salva in memoria 5, caricalo dalla memoria e sommagli l'immediato 5:
+0 => x"0000",
+1 => x"905A", 
+2 => x"AA55",
+3 => x"B55B", 
+4 => x"3B5F", 
+
+Somme concatenate per testare il Data Hazard a 2 livelli
+0 => x"0000",
+1 => x"9051", 
+2 => x"9102",
+3 => x"1123", 
+4 => x"1324", 
+5 => x"1145",

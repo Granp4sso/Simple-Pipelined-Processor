@@ -1,0 +1,88 @@
+v 4
+file . "SPP_system.vhd" "ed744180974d60ec6e69427381ed7b917342f16e" "20211127104224.907":
+  entity spp_system at 1( 0) + 0 on 1623;
+  architecture structural of spp_system at 78( 3096) + 0 on 1624;
+file . "./Stages/Execute_Stage.vhd" "e4a7813dbae3e69258c6e885bfb18b102bb2e932" "20211127104224.840":
+  entity execute_stage at 1( 0) + 0 on 1619;
+  architecture structural of execute_stage at 49( 2015) + 0 on 1620;
+file . "./Stages/Fetch_Stage.vhd" "e12f537c84671b2409dadc0f54e6b2997f8e046e" "20211127104224.770":
+  entity fetch_stage at 1( 0) + 0 on 1615;
+  architecture structural of fetch_stage at 27( 797) + 0 on 1616;
+file . "./Registri_e_Memorie/pipe_EX_MEM.vhd" "f31576554dc1bdd773a8ac6051168077e5554a5f" "20211127104224.702":
+  entity pipe_ex_mem at 1( 0) + 0 on 1611;
+  architecture behavioral of pipe_ex_mem at 28( 1013) + 0 on 1612;
+file . "./Registri_e_Memorie/pipe_IF_ID.vhd" "32a283f4cbcbe66db74d2518daf9e5c91f381ff3" "20211127104224.636":
+  entity pipe_if_id at 1( 0) + 0 on 1607;
+  architecture behavioral of pipe_if_id at 22( 677) + 0 on 1608;
+file . "./Registri_e_Memorie/IM.vhd" "061240ba17d65f4315a61e3bce58761662a3d58b" "20211127104224.571":
+  entity im at 1( 0) + 0 on 1603;
+  architecture behavioral of im at 14( 285) + 0 on 1604;
+file . "./Registri_e_Memorie/registers.vhd" "0cbcb6e27da017dcaf33936d8fb1e086b4ea4db9" "20211127104224.506":
+  entity registers at 1( 0) + 0 on 1599;
+  architecture behavioral of registers at 21( 610) + 0 on 1600;
+file . "./Combinatori/Control_Hazard_Unit.vhd" "ac0dc1c295f4c12bca1dfa4ba1399cf4e12e5866" "20211127104224.438":
+  entity control_hazard_unit at 1( 0) + 0 on 1595;
+  architecture behavioral of control_hazard_unit at 26( 724) + 0 on 1596;
+file . "./Combinatori/OR_gate.vhd" "aabcb23e0cadd93f43441faa126ae602d39952d5" "20211127104224.372":
+  entity or_gate at 1( 0) + 0 on 1591;
+  architecture rtl of or_gate at 10( 153) + 0 on 1592;
+file . "./Combinatori/LUT.vhd" "e80c3c3055739c2673567d557a51d3de9e4ca86b" "20211127104224.313":
+  entity lut at 1( 0) + 0 on 1587;
+  architecture behavioral of lut at 14( 236) + 0 on 1588;
+file . "./Combinatori/adder_8bit.vhd" "83962f61d06806c29951b7cd9d00617c2df87612" "20211127104224.249":
+  entity adder_8bit at 1( 0) + 0 on 1583;
+  architecture behavioral of adder_8bit at 11( 240) + 0 on 1584;
+file . "./Multiplexers/mux_8bit_3_1.vhd" "c16004128fb8a9b8cb2a3f12774e57cbb376c650" "20211127104224.188":
+  entity mux_8bit_3_1 at 1( 0) + 0 on 1579;
+  architecture rtl of mux_8bit_3_1 at 11( 331) + 0 on 1580;
+file . "./Multiplexers/mux_8bit_2_1.vhd" "3d7ea788685ec273843beba821ab9294a1e3805d" "20211127104224.127":
+  entity mux_8bit_2_1 at 1( 0) + 0 on 1575;
+  architecture rtl of mux_8bit_2_1 at 10( 265) + 0 on 1576;
+file . "./SignExtenders/SE_8_16.vhd" "fe8c17abf344246f5ebeb4377151eb26d31e7c94" "20211127104224.068":
+  entity se_8_16 at 1( 0) + 0 on 1571;
+  architecture behavioral of se_8_16 at 9( 210) + 0 on 1572;
+file . "./SignExtenders/SE_4_8.vhd" "4ff61757203eeca96b29586029eb705310fcd141" "20211127104224.037":
+  entity se_4_8 at 1( 0) + 0 on 1569;
+  architecture behavioral of se_4_8 at 9( 203) + 0 on 1570;
+file . "./Multiplexers/mux_4bit_2_1.vhd" "60ab67b4bad5907f4715ae6722a8111323530ce5" "20211127104224.097":
+  entity mux_4bit_2_1 at 1( 0) + 0 on 1573;
+  architecture rtl of mux_4bit_2_1 at 10( 266) + 0 on 1574;
+file . "./Multiplexers/mux_16bit_2_1.vhd" "6084210394b4f16454480d618923963d417b4966" "20211127104224.157":
+  entity mux_16bit_2_1 at 1( 0) + 0 on 1577;
+  architecture rtl of mux_16bit_2_1 at 10( 271) + 0 on 1578;
+file . "./Multiplexers/mux_16bit_3_1.vhd" "79a6b615e92a4ee53b6a1caf3ffa643b33d5aa9a" "20211127104224.218":
+  entity mux_16bit_3_1 at 1( 0) + 0 on 1581;
+  architecture rtl of mux_16bit_3_1 at 11( 337) + 0 on 1582;
+file . "./Combinatori/ALU.vhd" "ff50a9d98c67703cd0184c3397b1de9ddb7d5468" "20211127104224.281":
+  entity alu at 1( 0) + 0 on 1585;
+  architecture behavioral of alu at 17( 401) + 0 on 1586;
+file . "./Combinatori/AND_gate.vhd" "1324c293dedcdae277d6e14792a5d01589ee5c0b" "20211127104224.342":
+  entity and_gate at 1( 0) + 0 on 1589;
+  architecture rtl of and_gate at 10( 155) + 0 on 1590;
+file . "./Combinatori/Data_Hazard_Control.vhd" "7c192c19b04ca084843437589c3e2d4c081c2a02" "20211127104224.405":
+  entity data_hazard_control at 1( 0) + 0 on 1593;
+  architecture behavioral of data_hazard_control at 37( 1076) + 0 on 1594;
+file . "./Registri_e_Memorie/PC.vhd" "24414af48a14eb4890790738b5c02c310580c3ee" "20211127104224.471":
+  entity pc at 1( 0) + 0 on 1597;
+  architecture behavioral of pc at 16( 369) + 0 on 1598;
+file . "./Registri_e_Memorie/FF_T.vhd" "6e1c0948e6e863ded61758bdcff34665d50b3ca0" "20211127104224.536":
+  entity ff_t at 1( 0) + 0 on 1601;
+  architecture behavioral of ff_t at 14( 202) + 0 on 1602;
+file . "./Registri_e_Memorie/DM.vhd" "f2451dfe53a579a811952454a0fd1af6b818e2c4" "20211127104224.603":
+  entity dm at 1( 0) + 0 on 1605;
+  architecture behavioral of dm at 19( 473) + 0 on 1606;
+file . "./Registri_e_Memorie/pipe_ID_EX.vhd" "efc0e2d6003e38e937fa7d8d42829adbc3d707ad" "20211127104224.670":
+  entity pipe_id_ex at 1( 0) + 0 on 1609;
+  architecture behavioral of pipe_id_ex at 39( 1691) + 0 on 1610;
+file . "./Registri_e_Memorie/pipe_MEM_WB.vhd" "b0ae2a85dcf7e28fee99bbdf1a20ae6f91b4f06b" "20211127104224.735":
+  entity pipe_mem_wb at 1( 0) + 0 on 1613;
+  architecture behavioral of pipe_mem_wb at 23( 741) + 0 on 1614;
+file . "./Stages/Decode_stage.vhd" "6661dd1f18ee48ffd7ff92188b150715694e129a" "20211127104224.804":
+  entity decode_stage at 1( 0) + 0 on 1617;
+  architecture structural of decode_stage at 45( 1735) + 0 on 1618;
+file . "./Stages/Memory_Stage.vhd" "e2dc856d289f5fd0ff96a464b13f07ef678dcfa3" "20211127104224.873":
+  entity memory_stage at 1( 0) + 0 on 1621;
+  architecture structural of memory_stage at 37( 1248) + 0 on 1622;
+file . "SPP_TB.vhd" "315457e1f3ed4fef94f1c79967f5988f113c68c8" "20211127104224.941":
+  entity spp_tb at 1( 0) + 0 on 1625;
+  architecture behavior of spp_tb at 8( 109) + 0 on 1626;
